@@ -128,3 +128,20 @@ We'll start with the target variables, and then move on to the other variables. 
 ## <div style="padding: 20px;color:white;margin:10;font-size:90%;text-align:left;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683041/pexels-photo-3683041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'> Univariate Analysis </span></b> </div>
 
 ### <b>I <span style='color:#FF8551'>|</span>Numerical Variables</b>
+
+### 🔍 Interpretation of Results:
+
+- 📏 **Height_(cm)**: The height of the patients seems to follow a normal distribution, with the majority of patients having heights around 160 to 180 cm.
+
+- ⚖️ **Weight_(kg)**: The weight of the patients also appears to be normally distributed, with most patients weighing between approximately 60 and 100 kg.
+
+- 📏⚖️ **BMI**: The distribution of Body Mass Index is somewhat right-skewed. A large number of patients have a BMI between 20 and 30, which falls within the normal to overweight range. However, there are also a significant number of patients with a BMI in the obese range (>30).
+
+- 🍺 **Alcohol_Consumption**: This feature is heavily right-skewed. Most patients have low alcohol consumption, but there are a few patients with high consumption.
+
+- 🍎 **Fruit_Consumption**: This feature is also right-skewed. A lot of patients consume fruits regularly, but a significant number consume them less frequently.
+
+- 🥦 **Green_Vegetables_Consumption**: This feature appears to be normally distributed, with most patients consuming green vegetables moderately.
+
+- 🍟 **FriedPotato_Consumption**: This feature is right-skewed. Many patients consume fried potatoes less frequently, while a few consume them more often.
+
