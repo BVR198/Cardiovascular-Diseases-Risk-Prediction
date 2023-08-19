@@ -90,3 +90,41 @@ This project underscores the potential of machine learning 🧠 in healthcare pr
 <br>
 
 ### <b>I <span style='color:#FF8551'>|</span> Import neccessary libraries</b>
+
+# <span style="color:#E888BB; font-size: 1%;">EXPLORATORY DATA ANALYSIS</span>
+<div style="padding: 35px;color:white;margin:10;font-size:170%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>EXPLORATORY DATA ANALYSIS </span></b> </div>
+
+<br>
+
+<div style="display: flex; flex-direction: row; align-items: center;">
+    <div style="flex: 0;">
+        <img src="https://images.pexels.com/photos/4021808/pexels-photo-4021808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image" style="max-width: 300px;" />
+    </div>
+    <div style="flex: 1; margin-left: 30px;">
+        <p style="font-weight: bold; color: black;">Diving into Disease Prognosis</p>
+        <p>This project puts a spotlight on the <b><mark style="background-color:#FCE38A;color:white;border-radius:5px;opacity:1.0">Healthcare Dataset</mark></b>, aiming to identify key patterns and factors associated with various diseases. With an application of techniques such as <b><span style='color:#FCE38A'>univariate</span></b>, <b><span style='color:#FCE38A'>bivariate</span></b>, and <b><span style='color:#FCE38A'>multivariate analysis</span></b>, we endeavor to unravel complex relationships and significant determinants in the dataset.
+        </p>
+        <p style="border: 1px solid black; padding: 10px;">Our exploratory data analysis reveals insightful patterns and trends related to the occurrence of diseases. However, while interpreting these findings, it's crucial to remember the difference between correlation and causation. It is important to note that our exploratory analysis, though comprehensive, does not establish a causal relationship between the features and disease occurrences.
+        </p>
+        <p style="font-style: italic;">Let's embark on this exploratory journey to extract valuable insights from our data. Ready for the deep dive? 🧐🔍
+        </p>
+    </div>
+</div>
+
+<br>
+
+
+For the exploratory data analysis (EDA), we will proceed with the following steps:
+
+1. **Univariate Analysis**: We'll inspect each variable individually to understand its distribution and potential outliers. This will provide insights into the characteristics of each variable and help identify any extreme values or anomalies.
+
+2. **Bivariate Analysis**: We'll explore the relationship between each variable and the target variables (`Heart_Disease`, `Skin_Cancer`, `Other_Cancer`, `Diabetes`). This analysis will allow us to understand how each variable is associated with the presence or absence of these diseases. We can use techniques like bar charts to visualize the distributions of the target variables based on different categories or levels of other variables.
+
+3. **Multivariate Analysis**: We'll study the interactions between different variables and how they collectively relate to the target variables. This analysis will help us uncover complex relationships and patterns that may not be apparent in the univariate or bivariate analyses. Techniques such as scatter plots, correlation matrices, and 3D visualizations can be utilized to gain deeper insights into the data.
+
+We'll start with the target variables, and then move on to the other variables. Since the target variables are binary, we can use bar charts to visualize their distributions. 📊🔍
+
+
+## <div style="padding: 20px;color:white;margin:10;font-size:90%;text-align:left;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683041/pexels-photo-3683041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'> Univariate Analysis </span></b> </div>
+
+### <b>I <span style='color:#FF8551'>|</span>Numerical Variables</b>
