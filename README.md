@@ -1,9 +1,5 @@
 # Cardiovascular-Diseases-Risk-Prediction
 
-<div style="padding: 35px;color:white;margin:10;font-size:200%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>Getting Started </span></b> </div>
-
-<br>
-
 ### `Getting Started`
 
 This project involves analyzing a healthcare dataset with the aim of predicting the prognosis of various diseases. The dataset includes various features related to patients' health and lifestyle, including age, sex, general health, checkup frequency, exercise habits, smoking history, and the presence of various diseases. Each entry represents a unique patient, and the features capture various factors associated with disease prognosis. 💊💡
