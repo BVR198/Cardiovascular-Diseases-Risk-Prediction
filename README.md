@@ -4,11 +4,13 @@
 
 <br>
 
-### 🚀 Getting Started
+### `Getting Started`
 
 This project involves analyzing a healthcare dataset with the aim of predicting the prognosis of various diseases. The dataset includes various features related to patients' health and lifestyle, including age, sex, general health, checkup frequency, exercise habits, smoking history, and the presence of various diseases. Each entry represents a unique patient, and the features capture various factors associated with disease prognosis. 💊💡
 
-### 🔧 Tools and Libraries
+### Packages Used 
+
+In this project we are using `Python` as a programing language  
 
 We will be using Python for this project, along with several libraries for data analysis, machine learning, and data visualization. Here are the main libraries we'll be using
 
