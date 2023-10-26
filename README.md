@@ -10,9 +10,7 @@ This project involves analyzing a healthcare dataset with the aim of predicting 
 
 ### Packages Used 
 
-In this project we are using `Python` as a programing language  
-
-We will be using Python for this project, along with several libraries for data analysis, machine learning, and data visualization. Here are the main libraries we'll be using
+In this project we are using `Python` as a programing language , along with several libraries such as `Pandas`, `Scikit-learn` and `matplotlib` for `Data analysis`, `Machine learning` and `Data Visualization`
 
 - **Pandas:** For data manipulation and analysis.
 - **Matplotlib and Seaborn:** For data visualization.
