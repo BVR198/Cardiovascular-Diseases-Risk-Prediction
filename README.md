@@ -10,21 +10,17 @@ This project involves analyzing a healthcare dataset with the aim of predicting 
 
 ### Packages Used 
 
-In this project we are using `Python` as a programing language , along with several libraries such as `Pandas`, `Scikit-learn` and `matplotlib` for `Data analysis`, `Machine learning` and `Data Visualization`
+In this project we are using `Python` as a programing language , along with several libraries such as Pandas, Scikit-learn and matplotlib for Data analysis, Machine learning and Data Visualization
 
-- **Pandas:** For data manipulation and analysis.
-- **Matplotlib and Seaborn:** For data visualization.
-- **Scikit-learn:** For machine learning tasks, including data preprocessing, model training, and model evaluation. 🐼📊🔬
+- **`Pandas`:** For data manipulation and analysis.
+- **`Matplotlib` and `Seaborn`:** For data visualization.
+- **`Scikit-learn`:** For machine learning tasks, including data preprocessing, model training, and model evaluation.
 
-### 📚 Dataset
-
-The dataset we'll be using includes various features related to patients' health and lifestyle. Each row represents a unique patient and includes attributes such as age, sex, general health, checkup frequency, exercise habits, and smoking history. The dataset also includes target variables representing the presence of various diseases. 📊💉
-
-### 🎯 Objective
+### Objective
 
 Our main objective is to develop a predictive model that can effectively forecast the prognosis of various diseases based on the provided features. By leveraging the power of machine learning, we aim to enhance the model's accuracy and predictive performance. 📈📉
 
-### 📈 Workflow
+###  Workflow
 
 Here's a brief overview of our workflow for this project:
 
