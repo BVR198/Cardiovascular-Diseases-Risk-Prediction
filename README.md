@@ -10,7 +10,7 @@ This project involves analyzing a healthcare dataset with the aim of predicting 
 
 ### 🔧 Tools and Libraries
 
-We will be using Python for this project, along with several libraries for data analysis, machine learning, and data visualization. Here are the main libraries we'll be using:
+We will be using Python for this project, along with several libraries for data analysis, machine learning, and data visualization. Here are the main libraries we'll be using
 
 - **Pandas:** For data manipulation and analysis.
 - **Matplotlib and Seaborn:** For data visualization.
