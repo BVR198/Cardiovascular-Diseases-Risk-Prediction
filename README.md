@@ -42,9 +42,9 @@ Here's a brief overview of our workflow for this project:
 
 <br>
 
-## Domain Knowledge 📚
+## Domain Knowledge 
 
-- **Age**: This is the age of the patient. Age is a crucial factor in disease prognosis as the risk of chronic conditions such as heart disease, cancer, diabetes, and arthritis increases with age. This is due to various factors including the cumulative effect of exposure to risk factors, increased wear and tear on the body, and changes in the body's physiological functions. 🌡️👴
+- **Age**: This is the age of the patient. Age is a crucial factor in disease prognosis as the risk of chronic conditions such as heart disease, cancer, diabetes, and arthritis increases with age. This is due to various factors including the cumulative effect of exposure to risk factors, increased wear and tear on the body, and changes in the body's physiological functions. 
 
 - **Sex**: This feature represents the gender of the patient. Gender can influence disease prognosis due to biological differences and gender-specific lifestyle patterns. For instance, heart disease is more common in males, while skin cancer is more common in females. This could be due to factors like longer life expectancy or different exposure to risk factors in each gender. ♀️♂️
 
@@ -137,52 +137,49 @@ We'll start with the target variables, and then move on to the other variables. 
 
 - 🍟 **FriedPotato_Consumption**: This feature is right-skewed. Many patients consume fried potatoes less frequently, while a few consume them more often.
 
-## Bivariate Analysis Results
+## Bivariate Analysis Result
 
-### 🔍 Interpretation of Results:
+- `Heart_Disease`:
 
-- ❤️ `Heart_Disease`:
-
-  - Heart disease is more prevalent in patients who rate their general health as "Poor" or "Fair".🩹🔻
-  - It is slightly more common in patients who do not exercise. 🏋️‍♂️❌
-  - Males are more likely to have heart disease than females. 👨‍⚕️>👩‍⚕️
-  - The prevalence of heart disease increases with age, with it being most common in the 80+ age category. 🧓🔝
-  - Heart disease is also more common in patients with a history of smoking. 🚬🔺
+  - Heart disease is more prevalent in patients who rate their general health as "Poor" or "Fair".
+  - It is slightly more common in patients who do not exercise.
+  - Males are more likely to have heart disease than females.
+  - The prevalence of heart disease increases with age, with it being most common in the 80+ age category.
+  - Heart disease is also more common in patients with a history of smoking.
 
 
-- 🌞 `Skin_Cancer`:
-  - Skin cancer is more prevalent in patients who rate their general health as "Good" or "Very Good".👍🔻
-  - There is not much difference in prevalence based on exercise habits. 🏃‍♂️⏸️
-  - Females are more likely to have skin cancer than males. 👩‍⚕️>👨‍⚕️
-  - The prevalence of skin cancer increases with age, with it being most common in the 70-74 age category. 👵🔝
-  - There is not much difference in prevalence based on smoking history. 🚬⏸️
+- `Skin_Cancer`:
+  - Skin cancer is more prevalent in patients who rate their general health as "Good" or "Very Good".
+  - There is not much difference in prevalence based on exercise habits.
+  - Females are more likely to have skin cancer than males.
+  - The prevalence of skin cancer increases with age, with in being most common in the 70-74 age category.
+  - There is not much difference in prevalence based on smoking history.
 
 
-- 🦀 `Other_Cancer`:
+- `Other_Cancer`:
 
-  - Other cancers are more prevalent in patients who rate their general health as "Poor" or "Fair".🩹🔻
-  - They are slightly more common in patients who do not exercise. 🏋️‍♂️❌
-  - There is not much difference in prevalence based on sex. 👫⏸️
-  - The prevalence of other cancers increases with age, with it being most common in the 75-79 age category. 👵🔝
-  - Other cancers are more common in patients with a history of smoking. 🚬🔺
-
-
-- 🩸 `Diabetes`:
-
-  - Diabetes is more prevalent in patients who rate their general health as "Fair" or "Poor".🩹🔻
-  - It is more common in patients who do not exercise. 🏋️‍♂️❌
-  - There is not much difference in prevalence based on sex. 👫⏸️
-  - The prevalence of diabetes increases with age, with it being most common in the 70-74 age category. 👵🔝
-  - Diabetes is more common in patients with a history of smoking. 🚬🔺
+  - Other cancers are more prevalent in patients who rate their general health as "Poor" or "Fair"
+  - They are slightly more common in patients who do not exercise.
+  - There is not much difference in prevalence based on sex.
+  - The prevalence of other cancers increases with age, with it being most common in the 75-79 age category.
+  - Other cancers are more common in patients with a history of smoking.
 
 
-- 💪 `Arthritis`:
+- `Diabetes`:
 
-  - Arthritis is more prevalent in patients who rate their general health as "Fair" or "Poor".🩹🔻
-  - It is slightly more common in patients who do not exercise. 🏋️‍♂️❌
-  - Females are more likely to have arthritis than males. 👩‍⚕️>👨‍⚕️
-  - The prevalence of arthritis increases with age, with it being most common in the 75-79 age category. 👵🔝
-  - Arthritis is slightly more common in patients with a history of smoking. 🚬🔺
+  - Diabetes is more prevalent in patients who rate their general health as "Fair" or "Poor".
+  - It is more common in patients who do not exercise. 
+  - There is not much difference in prevalence based on sex. 
+  - The prevalence of diabetes increases with age, with it being most common in the 70-74 age category.
+  - Diabetes is more common in patients with a history of smoking.
+
+- `Arthritis`:
+
+  - Arthritis is more prevalent in patients who rate their general health as "Fair" or "Poor"
+  - It is slightly more common in patients who do not exercise. 
+  - Females are more likely to have arthritis than males. 
+  - The prevalence of arthritis increases with age, with it being most common in the 75-79 age category.
+  - Arthritis is slightly more common in patients with a history of smoking.
 
 
 ## Multivariate Analysis Results 
