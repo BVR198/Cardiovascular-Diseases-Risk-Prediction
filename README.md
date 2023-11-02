@@ -184,3 +184,47 @@ We'll start with the target variables, and then move on to the other variables. 
   - The prevalence of arthritis increases with age, with it being most common in the 75-79 age category. 👵🔝
   - Arthritis is slightly more common in patients with a history of smoking. 🚬🔺
 
+
+## Multivariate Analysis Results 
+
+### 🔍 Interpretation of Results:
+
+- The distribution of `General Health` by `Age Category` shows that as age increases, the proportion of individuals rating their health as "Good" or "Very Good" decreases, while the proportion rating their health as "Fair" or "Poor" increases.
+
+- The relationship between `General Health` and the disease conditions (`Heart_Disease`, `Skin_Cancer`, `Other_Cancer`, `Diabetes`, `Arthritis`) shows some interesting patterns:
+
+  - For ❤️ `Heart_Disease`, 🦀 `Other_Cancer`, 🩸 `Diabetes`, and 💪 `Arthritis`, the prevalence is higher among those who rate their health as "Poor" or "Fair". This suggests that these conditions may significantly impact individuals' perception of their general health.
+  
+  - For 🌞 `Skin_Cancer`, the prevalence seems to be more evenly distributed across the different health ratings. This could suggest that skin cancer may not impact individuals' perception of their general health as much as the other conditions.
+ 
+### <b>II <span style='color:#FF8551'>|</span> BMI category</b>
+
+### 🔍 Interpretation of Results:
+
+- The distribution of `BMI Category` by `Exercise` shows that individuals who exercise have a higher proportion of "Normal" BMI, while those who do not exercise have a higher proportion of "Overweight" and "Obese" BMI. This suggests that exercise is associated with healthier BMI levels. 🏋️‍♀️
+
+- The relationship between `BMI Category` and the disease conditions (`Heart_Disease`, `Skin_Cancer`, `Other_Cancer`, `Diabetes`, `Arthritis`) shows the following patterns:
+
+  - For ❤️ `Heart_Disease`, 🩸 `Diabetes`, and 💪 `Arthritis`, the prevalence is higher among those with "Overweight" and "Obese" BMI. This suggests that these conditions may be associated with higher BMI levels.
+  
+  - For 🌞 `Skin_Cancer` and 🦀 `Other_Cancer`, the prevalence seems to be more evenly distributed across the different BMI categories. This could suggest that these types of cancer may not be as strongly associated with BMI as the other conditions.
+
+### <b>III <span style='color:#FF8551'>|</span> 3D plot: Age_Category, General_Health, and BMI</b>
+
+### 🔍 Interpretation of Results:
+
+- 📊 The 3D plot visualizes the relationship between `Age_Category`, `General_Health`, and `BMI`. The plot shows a wide distribution across all three variables, suggesting a complex interplay between them.
+
+- ℹ️ Please note that the labels for `Age_Category` and `General_Health` are encoded to numerical values for the purpose of 3D plotting, so the exact categories are not directly visible on the axes.
+
+
+# <span style="color:#E888BB; font-size: 1%;">CORRELATION MATRIX</span>
+<div style="padding: 35px;color:white;margin:10;font-size:170%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>CORRELATION MATRIX </span></b> </div>
+
+### <b>I <span style='color:#FF8551'>|</span> Data Preprocessing</b>
+
+
+
+
+
+
