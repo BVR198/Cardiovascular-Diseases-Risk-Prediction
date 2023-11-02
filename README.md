@@ -224,6 +224,92 @@ We'll start with the target variables, and then move on to the other variables. 
 ### <b>I <span style='color:#FF8551'>|</span> Data Preprocessing</b>
 
 
+### 🔍 Interpretation of Results:
+
+- 📊 The correlation heatmap provides a visual representation of the correlation between different features in the dataset. Each square shows the correlation between the variables on each axis. Correlation values range from -1 to 1. Values closer to 1 represent a strong positive correlation, values closer to -1 represent a strong negative correlation, and values around 0 represent no correlation.
+
+- 🔎 Here are some observations from the heatmap:
+
+  - 🩸 `BMI`, `Weight_(kg)`, and `Exercise` have a positive correlation with `Diabetes`. This suggests that individuals with higher BMI and weight or who do not exercise are more likely to have diabetes.
+  
+  - 😔 `General_Health` has a negative correlation with `Diabetes`, `Heart_Disease`, `Arthritis`, and `Depression`. This suggests that individuals who rate their general health as poor are more likely to have these conditions.
+  
+  - ❤️ `Age_Category` has a positive correlation with `Heart_Disease`, `Skin_Cancer`, `Other_Cancer`, `Diabetes`, and `Arthritis`. This suggests that the risk of these diseases increases with age.
+  
+  - ♂️ `Sex_Male` has a positive correlation with `Heart_Disease` and a negative correlation with `Arthritis` and `Skin_Cancer`. This suggests that males are more likely to have heart disease but less likely to have arthritis or skin cancer.
+ 
+
+
+### <b>III <span style='color:#FF8551'>|</span> Correlation of each feature with the disease variables</b>
+
+### 🔍 Interpretation of Results:
+
+- 📊 The correlation heatmaps show the correlation of each feature with the five disease variables: Heart_Disease, Skin_Cancer, Other_Cancer, Diabetes, and Arthritis.
+
+- 🔎 From the heatmaps, we can observe the following:
+
+  - ❤️ **Heart_Disease**: This condition shows a strong positive correlation with `Age_Category` and `General_Health`, and a negative correlation with `Exercise` and `Sex_Female`.
+
+  - 🌞 **Skin_Cancer**: This condition is strongly positively correlated with `Age_Category` and `Sex_Male`, and negatively correlated with `Sex_Female`.
+
+  - 🦀 **Other_Cancer**: This condition shows a strong positive correlation with `Age_Category` and `General_Health`, and a negative correlation with `Sex_Female`.
+
+  - 🩸 **Diabetes**: This condition shows a strong positive correlation with `Age_Category`, `General_Health`, and `BMI`, and a negative correlation with `Exercise`
+ 
+  <div style="padding: 20px;color:white;margin:10;font-size:170%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>INSIGHTS</span></b> </div>
+  
+
+### Age and Disease Prevalence: 🧓👵🏥
+
+The positive correlation between `Age_Category` and the diseases under study aligns with established medical knowledge. It is well known that the risk of chronic conditions such as heart disease, cancer, diabetes, and arthritis increases with age. This is due to various factors including the cumulative effect of exposure to risk factors, increased wear and tear on the body, and changes in the body's physiological functions. ⏳⚕️
+
+### Health Perception and Disease Prevalence: 💓💡
+
+The negative correlation between self-rated `General_Health` and disease conditions underlines the importance of patients' perception of their own health. Patients who perceive their health as "Poor" or "Fair" are more likely to have chronic conditions. This could be because the symptoms or management of these conditions impact their perceived health status. 🩺🔮
+
+### Exercise and Health: 🏃‍♂️🏋️‍♀️💪
+
+The negative correlation between `Exercise` and diseases such as `heart disease`, `diabetes`, and `arthritis` reaffirms the well-established belief in the health benefits of regular physical activity. Regular exercise can help control weight, reduce the risk of heart diseases, and manage blood sugar and insulin levels, among other benefits. 🚴‍♀️🏊‍♂️
+
+### BMI and Diabetes: 🍎🍔🍬
+
+The positive correlation between `BMI` and diabetes aligns with existing knowledge. High BMI, especially obesity, is a known risk factor for type 2 diabetes. Excess fat, particularly if stored around the abdomen, can increase the body's resistance to insulin, leading to increased blood sugar. 🍩📈
+
+### Gender and Disease Prevalence: 👨‍⚕️👩‍⚕️🧬
+
+The correlations between `Sex` and certain diseases reveal interesting patterns. For instance, heart disease is more common in males, which agrees with many studies showing men are at a higher risk of heart disease. Skin cancer, however, is more common in females, which could be due to factors like longer life expectancy or different exposure to risk factors. 🚹🚺
+
+It's important to note that correlation does not imply causation. While these correlations provide valuable insights, they don't tell us whether one variable causes or directly influences another. Further statistical or experimental studies would be needed to determine causal relationships. 📚⚠️🔍
+
+# <span style="color:#E888BB; font-size: 1%;">EDA RESULT & DISCUSSION</span>
+<div style="padding: 35px;color:white;margin:10;font-size:170%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>EDA RESULT & DISCUSSION</span></b> </div>
+
+
+### Univariate Analysis: 📊🧪
+
+The distributions of the numerical variables, such as `Height_(cm)`, `Weight_(kg)`, and `BMI`, were mostly normal, with some features like `Alcohol_Consumption`, `Fruit_Consumption`, and `FriedPotato_Consumption` showing a right-skewed distribution. This suggests that a large proportion of patients have low to moderate consumption levels. 🥦🥔🍷
+
+The categorical variables displayed diverse distributions. For instance, most patients rated their general health as "Good" or "Very Good" and had their last checkup within the past year. Moreover, most patients reported exercising regularly, and a majority did not have a history of smoking. 🏥🚭💪
+
+### Bivariate Analysis: 📈👥
+
+The bivariate analysis revealed relationships between selected features and the disease conditions. Diseases like ❤️ Heart_Disease, 🦀 Other_Cancer, 🩸 Diabetes, and 💪 Arthritis were more prevalent in patients who rated their general health as "Poor" or "Fair", did not exercise, and had a history of smoking. 🌞 Skin_Cancer showed a different pattern, being more prevalent in patients with "Good" or "Very Good" general health and not showing a significant difference based on exercise habits. 🚶‍♀️🚶‍♂️
+
+### Multivariate Analysis: 📊🔢
+
+The multivariate analysis showed the interplay between multiple variables. For instance, as age increased, the proportion of individuals rating their health as "Good" or "Very Good" decreased, while the proportion rating their health as "Fair" or "Poor" increased. Similarly, individuals who exercised had a higher proportion of "Normal" BMI, while those who did not exercise had a higher proportion of "Overweight" and "Obese" BMI. 👴👵🏋️‍♂️🏋️‍♀️
+
+### Correlation Analysis: 🧩🔍
+
+Finally, the correlation analysis revealed the strength and direction of the relationships between the features and the disease conditions. `Age_Category` showed a strong positive correlation with all the diseases, indicating that the risk of these diseases increases with age. `Exercise` showed a negative correlation, suggesting that regular exercise may help reduce the risk of these diseases. 💪⏳
+
+<div class="warning" style="background-color: #F8F3D4; border-left: 6px solid #FF5252;font-size: 100%; padding: 10px;">
+<h3 style="color: #FF8551; font-size: 18px; margin-top: 0; margin-bottom: 10px;">🚧  Keep in Mind </h3>
+Overall, the EDA provided valuable insights that could be instrumental in developing a machine learning model for disease prognosis. It highlighted the importance of features like age, general health, exercise habits, and BMI in predicting the presence of various diseases. However, it's important to note that while these correlations can suggest relationships, they do not imply causation, and further investigation would be necessary to determine causal relationships. 🧬🔬⚖️
+</div>
+
+
+
 
 
 
