@@ -36,11 +36,7 @@ Here's a brief overview of our workflow for this project:
     🗒️ <b>Note:</b> This workflow provides a structured approach to analyzing the dataset, building a predictive model, and evaluating its performance. By following this workflow, we can gain insights into the dataset, develop an accurate predictive model, and make informed decisions based on the model's predictions. 📊🧪📈
 </div>  
 
-<br>
 
-![](https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
-
-<br>
 
 ## Domain Knowledge 
 
