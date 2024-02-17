@@ -75,32 +75,6 @@ This project underscores the potential of machine learning 🧠 in healthcare pr
 
 
 
-<br>
-
-### <b>I <span style='color:#FF8551'>|</span> Import neccessary libraries</b>
-
-# <span style="color:#E888BB; font-size: 1%;">EXPLORATORY DATA ANALYSIS</span>
-<div style="padding: 35px;color:white;margin:10;font-size:170%;text-align:center;display:fill;border-radius:10px;overflow:hidden;background-image: url(https://images.pexels.com/photos/3683056/pexels-photo-3683056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)"><b><span style='color:black'>EXPLORATORY DATA ANALYSIS </span></b> </div>
-
-<br>
-
-<div style="display: flex; flex-direction: row; align-items: center;">
-    <div style="flex: 0;">
-        <img src="https://images.pexels.com/photos/4021808/pexels-photo-4021808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image" style="max-width: 300px;" />
-    </div>
-    <div style="flex: 1; margin-left: 30px;">
-        <p style="font-weight: bold; color: black;">Diving into Disease Prognosis</p>
-        <p>This project puts a spotlight on the <b><mark style="background-color:#FCE38A;color:white;border-radius:5px;opacity:1.0">Healthcare Dataset</mark></b>, aiming to identify key patterns and factors associated with various diseases. With an application of techniques such as <b><span style='color:#FCE38A'>univariate</span></b>, <b><span style='color:#FCE38A'>bivariate</span></b>, and <b><span style='color:#FCE38A'>multivariate analysis</span></b>, we endeavor to unravel complex relationships and significant determinants in the dataset.
-        </p>
-        <p style="border: 1px solid black; padding: 10px;">Our exploratory data analysis reveals insightful patterns and trends related to the occurrence of diseases. However, while interpreting these findings, it's crucial to remember the difference between correlation and causation. It is important to note that our exploratory analysis, though comprehensive, does not establish a causal relationship between the features and disease occurrences.
-        </p>
-        <p style="font-style: italic;">Let's embark on this exploratory journey to extract valuable insights from our data. Ready for the deep dive? 🧐🔍
-        </p>
-    </div>
-</div>
-
-<br>
-
 
 For the exploratory data analysis (EDA), we will proceed with the following steps:
 
