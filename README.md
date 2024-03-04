@@ -38,20 +38,6 @@ Here's a brief overview of our workflow for this project:
 
 
 
-## Domain Knowledge 
-
-- **Age**: This is the age of the patient. Age is a crucial factor in disease prognosis as the risk of chronic conditions such as heart disease, cancer, diabetes, and arthritis increases with age. This is due to various factors including the cumulative effect of exposure to risk factors, increased wear and tear on the body, and changes in the body's physiological functions. 
-
-- **Sex**: This feature represents the gender of the patient. Gender can influence disease prognosis due to biological differences and gender-specific lifestyle patterns. For instance, heart disease is more common in males, while skin cancer is more common in females. This could be due to factors like longer life expectancy or different exposure to risk factors in each gender. ♀️♂️
-
-- **General_Health**: This is a self-rated health status of the patient. Patients who perceive their health as "Poor" or "Fair" are more likely to have chronic conditions. This could be because the symptoms or management of these conditions impact their perceived health status. 💓
-
-- **Checkup**: This feature represents the frequency of health checkups. Regular health checkups can help in early detection and management of diseases, thereby improving the prognosis. 🏥
-
-- **Exercise**: This feature indicates whether the patient exercises regularly or not. Regular exercise can help control weight, reduce risk of heart diseases, and manage blood sugar and insulin levels, among other benefits. This aligns with the negative correlation observed between exercise and diseases such as heart disease, diabetes, and arthritis. 🏃‍♂️🏋️‍♀️
-
-- **Smoking_History**: This feature indicates whether the patient has a history of smoking. Smoking can increase disease risk as it can damage blood vessels, increase blood pressure, and reduce the amount of oxygen reaching the organs. 🚬🚭
-
 <div style="border-radius: 10px; border: #DBC4F0 solid; padding: 15px; background-color: #ffffff00; font-size: 100%; text-align: left;">
     🗒️ <b>Note:</b> These features collectively provide a comprehensive profile of the patient, incorporating demographic factors, health conditions, and lifestyle habits that are all known to influence disease prognosis. The model trained on these features thus has the potential to provide accurate disease predictions based on a wide range of factors. 🧠💡
 </div>  
